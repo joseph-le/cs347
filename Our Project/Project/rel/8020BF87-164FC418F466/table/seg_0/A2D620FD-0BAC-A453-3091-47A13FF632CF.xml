@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2D620FD-0BAC-A453-3091-47A13FF632CF" name="Notice_List">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>4CCADBDE-F7AC-EC5D-E624-19EBE3AC6DD3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="List_Id" id="EA314B80-1C7A-099F-9081-7EC998984BC1">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>050397AA-F331-ED88-DB3C-B92294B2D2D8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="List_Name" id="1F4DC069-3E16-C1BB-7DD9-116390DBB7B5">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>DB8ACF55-8DE6-983A-DFCA-F89D97B829C4</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="List_Disc" id="9E384C67-BD71-6508-2552-7EFD3E62C56C">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>DBCBA8C6-3C83-CE2C-86A3-E06C11BB718D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ext_View_Name" id="2EAEE5EB-C31E-0F6F-5BFC-1E0282557834">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>8A6997D4-06F3-8413-6880-BE23412025EC</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Create_Date" id="12507A59-8359-4704-0874-084F9E108406">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>6D45DDD2-D7DC-CF54-F07A-FDAB8FA67A3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="List_Status" id="E519D144-4C32-D6F0-9FF2-0CE356914757">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>C81374DA-60D6-218F-66A5-F65B225A49B7</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Eff_Date" id="60421F86-5031-0B3D-9D65-95094913DA0C">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>BDAD2F32-FE9A-5831-74E2-B64745AB2D32</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Division" id="0835517A-D910-40B0-8D34-D5D3B310942A">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>A9D14A28-A0E9-06C6-5A10-54A979DD30E9</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F29C43F-98B4-2960-AC33-A23993EAE961" name="Notice_List_PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>DE6CA14F-3BDE-515E-C23B-F47A6FFD4B1B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA314B80-1C7A-099F-9081-7EC998984BC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

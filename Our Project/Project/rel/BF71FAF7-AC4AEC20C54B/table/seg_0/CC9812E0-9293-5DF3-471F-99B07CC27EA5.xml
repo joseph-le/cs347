@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC9812E0-9293-5DF3-471F-99B07CC27EA5" name="Files">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>3A6B7A05-C311-05BE-A44A-190CBD92A77D</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="File_id" id="230D2408-DBE1-0676-E210-5FB9AF04961E">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>684BD276-57BC-7730-7601-57F0BE2243CE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="File_name" id="ED8CEF1A-D959-9864-FB1F-A97610015751">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>62225B3A-24C8-4B85-4FA6-3A6E9FD7CC64</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="File_Data" id="69906914-3F88-C716-DFAC-52C2786545F0">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>0A130FCC-8EDB-E885-073E-51515109649C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empl_Emp_id" id="FAF14DB0-4D30-9CDE-2BD9-AABEA10FC905">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>D39F2045-0427-0168-C256-B19FBC188FFF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>19F53629-C092-E7AD-1DC2-245C7747F1D2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="361147F9-6F6E-08EB-8E7C-EF134869708C" referredColumn="19F53629-C092-E7AD-1DC2-245C7747F1D2"/>
+</associations>
+</Column>
+<Column name="Date_Added" id="87919C54-CB53-7CB4-80C7-147C3595BE1E">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>87292D56-3148-815C-AF5B-3CB8EBA5EECB</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AA2BAE9-3796-164A-7AD4-386927A3D48A" name="Files_PK">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>441DE042-B0A1-78D0-1A2A-8D124EFE8FA0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="230D2408-DBE1-0676-E210-5FB9AF04961E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2D519F9-60FA-DB8E-CD0B-F87DBF7EDA69" name="Files_Empl_FK">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:45 UTC</createdTime>
+<generatorID>6588A6BE-C096-DA06-C978-2257C86C27A3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAF14DB0-4D30-9CDE-2BD9-AABEA10FC905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

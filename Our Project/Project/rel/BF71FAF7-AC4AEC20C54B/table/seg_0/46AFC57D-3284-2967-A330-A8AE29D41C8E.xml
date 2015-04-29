@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46AFC57D-3284-2967-A330-A8AE29D41C8E" name="Empl">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>B0560360-6784-1270-8B6E-7AD3B6748908</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Emp_id" id="19F53629-C092-E7AD-1DC2-245C7747F1D2">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>68EEB267-8276-A8CF-5D3D-895C701A7A57</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emp_Name" id="5A5BD29C-F45D-23D6-498E-4B997CD6B5F7">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>AA901DAD-324E-96E5-1D5B-8249274C6577</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lab" id="4551B682-B001-B7A7-0FFD-1AB1D3A9A5D1">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>DB8EC247-1121-74D6-7921-7937A868DB73</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emp_Status" id="70C33015-1AEE-BB2A-104E-F243134C74E1">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>C69B87C1-A277-70AA-C38D-38D1A3FE1D4B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emp_Eff_Date" id="1786B0E6-783A-ABC9-5D10-7AE9A86BC827">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>47AFBC03-6EDE-97AE-D9CA-E96ADD815B0A</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Division" id="9B3E694B-7880-8FE5-BEEE-F2CD02540754">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>E9C6391C-B034-ABC4-B012-69A21BD3EA0C</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Is_Admin" id="3464AED2-46FF-1F76-6E47-A80481C58934">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>65E16406-921C-B0D3-7500-C579E4A86512</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Is_NL_User" id="A2998420-F5D6-39CB-666A-76089DA41FB7">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>AE8593CE-94F9-1565-7E98-923BAEF238C5</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCC16B45-6E59-CE89-E966-FC996AC29BB5" name="Empl_PK">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-19 18:45:44 UTC</createdTime>
+<generatorID>30F0388A-2B15-6A71-5EB4-711AA16015BE</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19F53629-C092-E7AD-1DC2-245C7747F1D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FD7AB36-D982-ADA0-4391-6FE6BF118D18" name="NL_Members">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>12DF212B-BA8A-764D-97A7-CD5F589C5235</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date_Added" id="1A5A17DA-B6A9-6398-8876-B76DD877A1D7">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>D83A9B6C-84D9-FBB3-44AE-73F802E21531</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notice_List_List_Id" id="91F57B7C-F43A-8E20-3CD9-521AB9138EDB">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>6E7D0D7C-7343-06F9-0C90-57A26AB898F8</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EA314B80-1C7A-099F-9081-7EC998984BC1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC59F7C-8744-D9F9-16EE-384F51A18206" referredColumn="EA314B80-1C7A-099F-9081-7EC998984BC1"/>
+</associations>
+</Column>
+<Column name="Emp_Emp_id" id="65B3FCD0-491B-9DEC-365B-46062E3CE632">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>8DA390F0-CBB4-448E-6C8F-D3135EC2D680</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D78DC81-CD4C-3137-A437-6292D8E1D11B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D5F1D92-D9A1-88C1-169E-BB9338277057" referredColumn="2D78DC81-CD4C-3137-A437-6292D8E1D11B"/>
+</associations>
+</Column>
+<Column name="Notice_List_List_Id1" id="2AA55A25-C667-0804-AC81-C33BDE670F1B">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>BAD8EBC7-174B-A52C-842C-D7A419DAC875</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EA314B80-1C7A-099F-9081-7EC998984BC1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16E748BB-E396-4867-5D02-B629870F9D5F" referredColumn="EA314B80-1C7A-099F-9081-7EC998984BC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61D181CC-4119-AC86-07B4-FA8971D9E9A3" name="NL_Members_Emp_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>CB31C134-39D2-C52D-DE2A-9D0D9B655EE0</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B3FCD0-491B-9DEC-365B-46062E3CE632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD9D6450-3BF3-431E-1F24-36FCD6C71197" name="NL_Members_Notice_List_FK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>4B8B3815-37C7-1613-AD35-A2FF778122BF</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F57B7C-F43A-8E20-3CD9-521AB9138EDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03910839-736F-4647-8748-4FFD6A2776B2" name="NL_Members_Notice_List_FKv1">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-12 21:32:44 UTC</createdTime>
+<generatorID>62B788BF-9D82-FFCB-00CC-9CEAAD53B79B</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AA55A25-C667-0804-AC81-C33BDE670F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

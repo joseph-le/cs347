@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A6B7A05-C311-05BE-A44A-190CBD92A77D" name="Files">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:23:59 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="File_id" id="684BD276-57BC-7730-7601-57F0BE2243CE">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:24:08 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="File_name" id="62225B3A-24C8-4B85-4FA6-3A6E9FD7CC64">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="File_Data" id="0A130FCC-8EDB-E885-073E-51515109649C">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:26:11 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="Emp_id" id="D39F2045-0427-0168-C256-B19FBC188FFF">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:26:55 UTC</createdTime>
+<generatorID>6588A6BE-C096-DA06-C978-2257C86C27A3</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>68EEB267-8276-A8CF-5D3D-895C701A7A57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Date_Added" id="87292D56-3148-815C-AF5B-3CB8EBA5EECB">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:45:23 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="441DE042-B0A1-78D0-1A2A-8D124EFE8FA0" name="{entity} PK">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 18:24:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>684BD276-57BC-7730-7601-57F0BE2243CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

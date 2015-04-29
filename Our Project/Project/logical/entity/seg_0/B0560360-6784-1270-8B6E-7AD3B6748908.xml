@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0560360-6784-1270-8B6E-7AD3B6748908" name="Empl">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:15:23 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Emp_id" id="68EEB267-8276-A8CF-5D3D-895C701A7A57">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:15:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Emp_Name" id="AA901DAD-324E-96E5-1D5B-8249274C6577">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:17:39 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+</Attribute>
+<Attribute name="Lab" id="DB8EC247-1121-74D6-7921-7937A868DB73">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:18:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="Emp_Status" id="C69B87C1-A277-70AA-C38D-38D1A3FE1D4B">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:20:23 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="Emp_Eff_Date" id="47AFBC03-6EDE-97AE-D9CA-E96ADD815B0A">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:20:50 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="Division" id="E9C6391C-B034-ABC4-B012-69A21BD3EA0C">
+<createdBy>asad</createdBy>
+<createdTime>2015-04-12 21:00:15 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="Is_Admin" id="65E16406-921C-B0D3-7500-C579E4A86512">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 17:33:18 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="Is_NL_User" id="AE8593CE-94F9-1565-7E98-923BAEF238C5">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-18 17:52:33 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30F0388A-2B15-6A71-5EB4-711AA16015BE" name="{entity} PK">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:18:48 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="BF71FAF7-DC82-D516-4478-AC4AEC20C54B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68EEB267-8276-A8CF-5D3D-895C701A7A57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

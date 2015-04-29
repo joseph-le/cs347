@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12DF212B-BA8A-764D-97A7-CD5F589C5235" name="NL_Members">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:28:11 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date_Added" id="D83A9B6C-84D9-FBB3-44AE-73F802E21531">
+<createdBy>asad</createdBy>
+<createdTime>2015-03-31 01:28:46 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="List_Id" id="75A1BE4E-55E2-671F-9755-4A4629E38FCF">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-19 17:54:38 UTC</createdTime>
+<generatorID>E9DF3B65-2C93-2DBC-021D-9D712073CC3E</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>050397AA-F331-ED88-DB3C-B92294B2D2D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="List_Id1" id="29FE3589-0916-4776-1E33-7C04C7EB573C">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-19 17:54:43 UTC</createdTime>
+<generatorID>CAA43771-E04F-AFDB-810E-AD8853EBBB31</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>050397AA-F331-ED88-DB3C-B92294B2D2D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Emp_id" id="4341B6E8-7529-9A57-6D93-98313AF34DB4">
+<createdBy>Joe</createdBy>
+<createdTime>2015-04-19 17:54:56 UTC</createdTime>
+<generatorID>1FFC31BD-68E5-7B95-53E6-7DF025AF4DBA</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>68EEB267-8276-A8CF-5D3D-895C701A7A57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>
