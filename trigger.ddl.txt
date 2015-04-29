@@ -1,0 +1,46 @@
+--EMPL TRIGGERS
+create or replace trigger "EMPL_T2"
+BEFORE
+insert or update on "EMPL"
+for each row
+begin
+IF(:NEW.IS_ADMIN='T') then
+:NEW.IS_NL_USER:='T';
+end if;
+
+end;
+--FILE TRIGGERS
+create or replace trigger "EMPL_T2"
+BEFORE
+insert or update on "EMPL"
+for each row
+begin
+IF(:NEW.IS_ADMIN='T') then
+:NEW.IS_NL_USER:='T';
+end if;
+
+end;
+--NOTICE_LIST_TRIGGER
+create or replace trigger "NOTICE_LIST_T5"
+BEFORE
+insert on "NOTICE_LIST"
+for each row
+begin
+:NEW.List_status:='A';
+end;
+
+create or replace trigger "NOTICE_LIST_T5"
+BEFORE
+insert on "NOTICE_LIST"
+for each row
+begin
+:NEW.List_status:='A';
+end;
+
+create or replace trigger "NOTICE_LIST_T5"
+BEFORE
+insert on "NOTICE_LIST"
+for each row
+begin
+:NEW.List_status:='A';
+end;
